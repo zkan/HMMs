@@ -1,0 +1,18 @@
+./run_baumwelch model/init.hmm sequence/train-1-seq/1.seq
+Number of iterations: 175
+Log prob(O|init model): -1.301340E+00
+Log prob(O|estimated model): -2.784493E-01
+
+./train_bw  model/init.hmm sequence/train-1-seq/
+Number of iterations: 175
+Log prob(O|init model): -1.301340E+00
+Log prob(O|estimated model): -2.784493E-01
+
+./train_iml -f 1  model/init.hmm sequence/train-1-seq/ -l 300
+Number of iterations: 300
+Log prob(O|init model): -1.301340E+00
+Log prob(O|estimated model): -2.784464E-01
+
+Number of iterations: 175
+Log prob(O|init model): -1.301340E+00
+Log prob(O|estimated model): -2.784493E-01
