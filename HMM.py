@@ -19,5 +19,6 @@ class HMM:
         return self._B
     
     def display(self):
-        print 'pi = ', self._pi
-        print 'A = ', self._A
+        print 'pi =', self._pi
+        print 'A =', self._A
+        print 'B =', self._B
